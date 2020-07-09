@@ -20,6 +20,6 @@ jobs:
       run: npm install --global surge
       
     - name: deploying using surge
-      run: surge ./ madly-desire.surge.sh --token $ {{ Secrets.SURGE_TOKEN }}
+      run: surge ./ madly-desire.surge.sh --token ${{ Secrets.SURGE_TOKEN }}
       
         
